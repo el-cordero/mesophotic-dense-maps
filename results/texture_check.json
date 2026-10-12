@@ -1,0 +1,6 @@
+{
+ "tiles": 612,
+ "exact_reconstruction_from_grid_min": 1.0,
+ "isolated_cells_mean": 0.1248,
+ "changed_by_5x5_median_mean": 0.288
+}

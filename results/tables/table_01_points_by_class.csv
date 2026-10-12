@@ -1,0 +1,10 @@
+Class,Training,Validation,Test,Total
+Coral,3444,671,1260,5375
+Gorgonians,123,40,32,195
+Sponges,5163,1143,1364,7670
+Macroalgae,10613,599,3006,14218
+Peyssonneliaceae,2759,434,779,3972
+Calcareous green algae,305,153,134,592
+Coralline algae,4265,921,1314,6500
+"Sand, pavement, rubble",9804,2637,2308,14749
+All classes,36476,6598,10197,53271

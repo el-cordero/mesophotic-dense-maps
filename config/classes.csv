@@ -1,0 +1,9 @@
+class_id,class_name,color_hex,label
+0,CORAL (C),#ff4d4d,Coral
+1,GORGONIANS (G),#ff944d,Gorgonians
+2,SPONGES (S),#3399ff,Sponges
+4,MACROALGAE (MA),#33cc66,Macroalgae
+5,PEYSSONNELIACEAE,#cc3366,Peyssonneliaceae
+6,CALCAREOUS GREEN,#7fbf3f,Calcareous green algae
+7,CORALLINE ALGAE (CA),#8b0000,Coralline algae
+8,"SAND, PAVEMENT, RUBBLE (SPR)",#d8c28a,"Sand, pavement, rubble"

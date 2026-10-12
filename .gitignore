@@ -1,0 +1,16 @@
+# Working folders created by the workflow
+tiles/
+outputs/
+
+# Python and R
+__pycache__/
+*.py[cod]
+.venv/
+.Rhistory
+.RData
+.Rproj.user/
+
+# System files
+.DS_Store
+._*
+.ruff_cache/

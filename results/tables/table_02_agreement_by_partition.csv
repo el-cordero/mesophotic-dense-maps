@@ -1,0 +1,4 @@
+Partition,Surveys,Photoquadrats,Points,Accuracy,Accuracy CI low,Accuracy CI high,Macro-F1,Macro-F1 CI low,Macro-F1 CI high
+Training,11,365,36476,0.641,,,0.515,,
+Validation,2,66,6598,0.588,,,0.412,,
+Test,3,102,10197,0.575,0.558,0.593,0.436,0.415,0.457

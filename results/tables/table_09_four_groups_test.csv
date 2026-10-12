@@ -1,0 +1,6 @@
+Threshold,Accuracy of retained points,Mean absolute difference (pp),Coral (pp),Other invertebrates (pp),Algae (pp),Abiotic substrate (pp)
+0.1,0.663,6.33,-1.0,4.9,-7.9,4.0
+0.3,0.664,6.33,-1.0,4.9,-8.0,4.0
+0.5,0.712,6.29,0.0,4.8,-8.9,4.1
+0.7,0.838,8.37,3.6,6.3,-11.5,1.5
+0.9,0.965,17.07,10.6,16.9,-21.3,-6.3

@@ -1,0 +1,9 @@
+Class,Test points,Precision,Recall,F1
+Coral,1260,0.75,0.68,0.713
+Gorgonians,32,0.0,0.0,0.0
+Sponges,1364,0.461,0.64,0.536
+Macroalgae,3006,0.628,0.608,0.618
+Peyssonneliaceae,779,0.497,0.336,0.401
+Calcareous green algae,134,0.484,0.112,0.182
+Coralline algae,1314,0.509,0.363,0.424
+"Sand, pavement, rubble",2308,0.563,0.671,0.612

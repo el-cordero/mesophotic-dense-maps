@@ -1,0 +1,7 @@
+# Steps 2 and 3 (training and inference). The study used Python 3.11 and CUDA 12.4.
+# For a CUDA build of PyTorch 2.4.1, see https://pytorch.org/get-started/previous-versions/
+-r requirements.txt
+torch==2.4.1
+torchvision==0.19.1
+opencv-python-headless
+tqdm

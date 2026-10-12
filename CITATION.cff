@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "mesophotic-dense-maps: code and data for mapping mesophotic coral reefs pixel by pixel from legacy point counts"
+abstract: "Code, derived data and the trained classifier for mapping mesophotic coral reefs pixel by pixel from legacy CPCe point counts with frozen DINO ViT-B/8 features."
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/el-cordero/mesophotic-dense-maps"
+authors:
+  - family-names: Cordero
+    given-names: Elvin
+    affiliation: "Department of Marine Sciences, University of Puerto Rico–Mayagüez, and SeaMount Geospatial Labs"
+  - family-names: Sherman
+    given-names: Clark E.
+    affiliation: "Department of Marine Sciences, University of Puerto Rico–Mayagüez"
+keywords:
+  - mesophotic coral ecosystems
+  - benthic cover
+  - point annotations
+  - semantic segmentation
+  - DINO
+preferred-citation:
+  type: article
+  title: "Mapping Mesophotic Coral Reefs Pixel by Pixel from Legacy Point Counts Using DINO Vision Transformer Features"
+  authors:
+    - family-names: Cordero
+      given-names: Elvin
+    - family-names: Sherman
+      given-names: Clark E.
+  status: submitted
+  year: 2026

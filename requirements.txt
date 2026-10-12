@@ -1,0 +1,5 @@
+# Steps 5-8 (analysis, tables and figures). No GPU needed.
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8
+pillow>=10.0
