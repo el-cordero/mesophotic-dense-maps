@@ -1,0 +1,60 @@
+cpce_code,cpce_label,cpce_major_category,class,points
+AU,Agaricia undata,C,Coral,3256
+AL,Agaricia lamarcki,C,Coral,375
+MPHA,Madracis pharensis,C,Coral,300
+MFRN,Orbicella franksi,C,Coral,288
+MME,Meandrina meandrites,C,Coral,272
+AH,Undaria humilis,C,Coral,179
+SB,Solenastrea bournoni,C,Coral,163
+AA,Agaricia,C,Coral,114
+MC,Montastraea cavernosa,C,Coral,70
+PA,Porites astreoides,C,Coral,70
+MAL,Agaricia lamarcki,C,Coral,69
+MF,Mycetophyllia ferox,C,Coral,48
+SS,Siderastrea siderea,C,Coral,39
+AF,Agaricia fragilis,C,Coral,30
+PD,Porites divaricata,C,Coral,25
+EF,Eusmilia fastigiata,C,Coral,13
+PF,Porites furcata,C,Coral,11
+DC,Diploria,C,Coral,8
+SR,Siderastrea radians,C,Coral,8
+AG,Agaricia grahamae,C,Coral,6
+PB,Porites,C,Coral,6
+PP,Porites porites,C,Coral,6
+MOSA,Montastraea,C,Coral,5
+MDA,Madracis,C,Coral,3
+MFAV,Orbicella faveolata,C,Coral,2
+OD,Oculina,C,Coral,2
+SC,Scolymia cubensis,C,Coral,2
+SM,Stephanocoenia michelinii,C,Coral,2
+CORJU,Coral juvenile,C,Coral,1
+IS,Isophyllia,C,Coral,1
+MD,Madracis decactis,,Coral,1
+GORG,Gorgonian,G,Gorgonians,99
+PAURA,Plexaura,G,Gorgonians,49
+PTER,Pterogorgia,G,Gorgonians,41
+ICIL,Iciligorgia,G,Gorgonians,6
+SPO,Sponge,S,Sponges,7670
+DICT,Dictyota,MA,Macroalgae,5718
+LOBO,Lobophora variegata,MA,Macroalgae,3364
+SCHIZ,Schizothrix,MA,Macroalgae,2922
+TURF,Turf,MA,Macroalgae,1884
+MICR,Microdictyon,MA,Macroalgae,311
+MACA,Macroalgae,MA,Macroalgae,16
+WRAN,Wrangelia,MA,Macroalgae,3
+PEYS,Peyssonnelia,MA,Peyssonneliaceae,2162
+PEGI,Peyssonnelia gigaspora,MA,Peyssonneliaceae,874
+PEIR,Peyssonnelia iridescens,MA,Peyssonneliaceae,473
+PEFL,Peyssonnelia flavescens,MA,Peyssonneliaceae,348
+PEME,Peyssonnelia megasorus,MA,Peyssonneliaceae,68
+PEBO,Peyssonnelia boergessenii,MA,Peyssonneliaceae,47
+HALI,Halimeda,MA,Calcareous green algae,592
+CALG,Coralline algae,CA,Coralline algae,5972
+AMP,Amphiroa,MA,Coralline algae,528
+S,Sand,SPR,"Sand, pavement and rubble",13342
+P,Pavement,SPR,"Sand, pavement and rubble",1405
+R,Rubble,SPR,"Sand, pavement and rubble",2
+ODC,Old dead coral,DCA,Excluded,24
+ASC,Ascidian,OL,Excluded,3
+DCA,Dead coral with algae,DCA,Excluded,1
+O,Other,OL,Excluded,1

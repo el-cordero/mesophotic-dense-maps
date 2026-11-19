@@ -68,6 +68,7 @@ The DINO ViT-B/8 weights (Caron et al., 2021) are downloaded from Meta on first 
 
 ```text
 config/classes.csv        class IDs, pointcoral class names, display names and colors
+config/cpce_code_to_class_lookup.csv  class assigned to each raw CPCe code, with point counts (Table S1)
 data/                     derived tables shared with the paper (see data/README.md)
 models/                   trained classifier, class index map and training history
 results/                  results.json, Tables 1-9 as CSV and the texture check
