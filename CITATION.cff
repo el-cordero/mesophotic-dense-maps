@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper."
-title: "mesophotic-dense-maps: code and data for mapping mesophotic coral reefs pixel by pixel from legacy point counts"
-abstract: "Code, derived data and the trained classifier for mapping mesophotic coral reefs pixel by pixel from legacy CPCe point counts with frozen DINO ViT-B/8 features."
+title: "mesophotic-dense-maps: code and data for dense benthic maps of mesophotic coral ecosystems from legacy point counts"
+abstract: "Code, derived data and the trained classifier for dense benthic maps of mesophotic coral ecosystems from legacy CPCe point counts with frozen DINO ViT-B/8 features."
 version: 1.0.0
 license: MIT
 repository-code: "https://github.com/el-cordero/mesophotic-dense-maps"
@@ -20,7 +20,7 @@ keywords:
   - DINO
 preferred-citation:
   type: article
-  title: "Mapping Mesophotic Coral Reefs Pixel by Pixel from Legacy Point Counts Using DINO Vision Transformer Features"
+  title: "Dense Benthic Maps of Mesophotic Coral Ecosystems from Legacy Point Counts Using DINO Vision Transformer Features"
   authors:
     - family-names: Cordero
       given-names: Elvin

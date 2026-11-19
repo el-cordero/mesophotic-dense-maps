@@ -1,10 +1,10 @@
-# Mapping mesophotic coral reefs pixel by pixel from legacy point counts
+# Dense benthic maps of mesophotic coral ecosystems from legacy point counts
 
 Code, derived data and the trained classifier for
 
-> Cordero, E. and Sherman, C.E. Mapping Mesophotic Coral Reefs Pixel by Pixel from Legacy Point Counts Using DINO Vision Transformer Features. Manuscript submitted for publication.
+> Cordero, E. and Sherman, C.E. Dense Benthic Maps of Mesophotic Coral Ecosystems from Legacy Point Counts Using DINO Vision Transformer Features. Manuscript submitted for publication.
 
-Monitoring programs have annotated reef photoquadrats with point counts for decades. This repository shows how those point labels can train dense, pixel-level benthic maps without any new annotation. A small classifier is trained on frozen DINO ViT-B/8 features at 53,271 CPCe points from 533 photoquadrats taken at 48–65 m off La Parguera, Puerto Rico, and is then applied to every image token. The maps are compared with the point counts on three held-out surveys, and the effect of confidence filtering on cover estimates is measured.
+Monitoring programs have annotated reef photoquadrats with point counts for decades. This repository shows how those point labels can train dense benthic maps without any new annotation. A small classifier is trained on frozen DINO ViT-B/8 features at 53,271 CPCe points from 533 photoquadrats taken at 48–65 m off La Parguera, Puerto Rico, and is then applied to every image token, so the maps are dense at the scale of the token grid (about 1.6 mm of reef). The maps are compared with the point counts on three held-out surveys, and the effect of confidence filtering on cover estimates is measured.
 
 ![Workflow](docs/workflow.png)
 
@@ -20,7 +20,7 @@ python workflow/06_analysis.py
 python workflow/07_figures.py
 ```
 
-`06_analysis.py` writes `results/results.json` and Tables 1–9 of the paper as CSV files in `results/tables/`. `07_figures.py` writes Figures 2, 3, 6, 7, 9 and 10 to `outputs/figures/`. Figures 4, 5 and 8 show example tiles and are drawn only when the tile images and prediction rasters are present. Figure 1 (the study area) is not made by these scripts.
+`06_analysis.py` writes `results/results.json` and nine result tables as CSV files in `results/tables/`. `07_figures.py` writes Figures 2, 3, 6, 7, 9 and 10 to `outputs/figures/`. Table and figure numbers in the scripts and file names follow the manuscript as first submitted. The revised paper merges and renumbers several of them. Figures 4, 5 and 8 show example tiles and are drawn only when the tile images and prediction rasters are present. Figure 1 (the study area) is not made by these scripts.
 
 With Python 3.13, NumPy 2.5.3, pandas 3.0.5, Matplotlib 3.11.2 and Pillow 12.3.0, the two scripts reproduce the committed `results/results.json` byte for byte and the published figures pixel for pixel. With Python 3.10, NumPy 2.2.6 and pandas 2.3.3, all nine tables are identical and only the simulated sampling error at the survey scale changes, in the fourth significant digit, because the random draws differ between these NumPy versions. The figures use the Liberation Sans font.
 
@@ -71,7 +71,7 @@ config/classes.csv        class IDs, pointcoral class names, display names and c
 config/cpce_code_to_class_lookup.csv  class assigned to each raw CPCe code, with point counts (Table S1)
 data/                     derived tables shared with the paper (see data/README.md)
 models/                   trained classifier, class index map and training history
-results/                  results.json, Tables 1-9 as CSV and the texture check
+results/                  results.json, the nine result tables as CSV and the texture check
 src/densemap/             Python package used by steps 2, 3, 6 and 7
 workflow/                 the eight steps listed above
 ```
